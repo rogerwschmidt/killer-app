@@ -1,0 +1,24 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Add an existing song to an existing playlist. Add a new playlist for an existing user; the playlist should contain at least one existing song. Remove an existing playlist.",
+  "main": "./src/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0"
+  },
+  "dependencies": {
+    "js-yaml": "^3.13.1"
+  },
+  "bin": {
+    "killer-app": "./src/index.js"
+  }
+}

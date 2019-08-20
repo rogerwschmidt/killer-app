@@ -1,0 +1,23 @@
+# Add an existing song to an existing playlist.
+- addSongToPlaylist:
+    song: 1
+    playlist: 1
+
+- addSongToPlaylist:
+    song: 25
+    playlist: 1
+
+# Add a new playlist for an existing user; the playlist should contain at least one existing song.
+
+- createPlaylistForUser:
+    user: 7
+    songs: 
+        - 39
+        - 40
+
+
+# Remove an existing playlist.
+
+- deletePlaylist: 
+    playlist: 3
+
